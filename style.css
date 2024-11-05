@@ -1,0 +1,102 @@
+*{
+    padding: 30px;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    animation-name: circle;
+    background-color: brown;
+    left: 0;
+    position: relative;
+    animation-duration: 4s;
+   
+    
+}
+.box:hover{
+    animation-play-state: running;
+}
+@keyframes circle{
+    0%{
+        background-color:red;
+        left: 0px;
+        top: 0;
+
+        
+    }
+    40%{
+        background-color:pink;
+        left:250px;
+        top: 0;
+    }
+    45%{
+        top: 100px;
+        background-color: aqua;
+        left: 250px;
+    }
+    50%{
+        top: 120px;
+        left: 250px;
+        background-color: chocolate;
+    }
+    55%{
+        top: 150px;
+        left: 250px;
+        background-color: darkviolet;
+    }
+60%{
+    top: 200px;
+    left: 250px;
+    background-color: aqua;
+}
+65%{
+    top: 230px;
+    left: 250px;
+    background-color: darkred;
+}
+68%{
+    top: 230px;
+    left: 250px;
+    background-color: black; 
+}
+70%{
+    top: 230px;
+    left: 240px;
+    background-color: blue;
+}
+75%{
+    top: 230px;
+    left: 230px;
+    background-color: gold;
+}
+80%{
+    top: 230px;
+    left: 180px;
+    background-color: lightslategray;
+}
+83%{
+    top:230px ;
+    left: 0px;
+    background-color: blue;
+}
+85%{
+    top:230px ;
+    left: 0px;
+    background-color: cadetblue;
+}
+90%{
+    top: 230px;
+    left: 0px;
+    background-color: darkslateblue;
+}
+95%{
+    top:180px;
+    left:0px;
+    background-color:pink;
+}
+
+    100%{
+      left:0px;
+      top:0px;
+      background-color:blue;
+    }
+}
